@@ -1,7 +1,7 @@
 class DeviseCreateUsers < ActiveRecord::Migration
   def change
     ## Added drop_table to fix rake db:migrate error "PG::Error: ERROR:  relation "users" already exists"
-    drop_table :users
+    ##drop_table :users
     create_table(:users) do |t|
       ## Database authenticatable
       t.string :email,              :null => false, :default => ""

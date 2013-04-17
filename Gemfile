@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem "taps", "~> 0.3.24"
 gem 'pg'
-gem 'devise'
+gem 'devise', '2.0'
 
 
 group :development, :test do

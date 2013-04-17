@@ -37,5 +37,6 @@ Wishlist::Application.configure do
 
 
   # Added per Devise install 'manual setup' recommendations
-  config.action_mailer.default_url_options = { :host => 'damp-caverns-8005.herokuapp.com/'}
+
+  config.action_mailer.default_url_options = { :host => 'peaceful-garden-3514.herokuapp.com/'}
 end

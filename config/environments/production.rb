@@ -66,6 +66,6 @@ Wishlist::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   # Added per Devise install 'manual setup' recommendations
-  config.action_mailer.default_url_options = { :host => 'damp-caverns-8005.herokuapp.com/'}
+  config.action_mailer.default_url_options = { :host => 'peaceful-garden-3514.herokuapp.com/'}
 
 end
