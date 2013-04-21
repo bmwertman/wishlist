@@ -1,7 +1,7 @@
+function productInfo() {
 function targetImg() {document.getElementById().src}
 function targetTitle() {document.getElementById().value}
 function targetPrice() {document.getElementsByClassName().value}
-function productInfo() {
   if (document(location.hostname) == 'www.amazon.com') {
 		targetImg('main-image');
 		targetTitle('btAsinTitle');
