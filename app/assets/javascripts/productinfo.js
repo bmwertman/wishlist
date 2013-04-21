@@ -3,7 +3,6 @@ var product_info = [];
 		var el = document.getElementById('main-image');
 		var state = '';
 		if(el != null) state = el.src;
-		document.getElementById().src;})();
 	var targetTitle = (function() {'use strict';
                                   document.getElementById().value;})();
 	var targetPrice = (function() {'use strict';
