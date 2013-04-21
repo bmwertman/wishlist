@@ -1,12 +1,14 @@
 var product_info = [];
-	var targetImg = (function() {'use strict';
+	var targetImg = function() {'use strict';
 		var el = document.getElementById('main-image');
 		var state = '';
-		if(el != null) state = el.src;
-	var targetTitle = (function() {'use strict';
-                                  document.getElementById().value;})();
-	var targetPrice = (function() {'use strict';
-                                  document.getElementsByClassName().value;})();
+                                 if (el !== null) {
+                                   state = el.src;}
+                               };
+	var targetTitle = function() {'use strict';
+                                  document.getElementById().value;}();
+	var targetPrice = function() {'use strict';
+                                  document.getElementsByClassName().value;}();
   if (document(location.hostname) === 'www.amazon.com') {
 		targetImg('main-image');
 		targetTitle('btAsinTitle');
@@ -24,4 +26,4 @@ var product_info = [];
 product_info.push(targetImg);
 product_info.push(targetTitle);
 product_info.push(targetPrice);
-  alert(product_info);
+  window.alert(product_info);  
