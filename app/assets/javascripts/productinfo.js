@@ -1,15 +1,16 @@
 var product_info = [];
-	var targetImg = function() {'use strict';
-								document.getElementById().src.indexOf( baseurl+"selection-off.png" ) >= 0;}();
-	var targetTitle = function() {'use strict';
-								document.getElementById().value;}();
-	var targetPrice = function() {'use strict';
-								document.getElementsByClassName().value;}();
-  if (document.write(location.hostname) === 'www.amazon.com') {
+var baseurl = "media/images/";
+	function targetImg() {'use strict';
+                          (document.getElementById().src.indexOf( baseurl+"selection-off.png" ) >= 0);}
+	function targetTitle() {'use strict';
+								(document.getElementById().value);}
+	function targetPrice() {'use strict';
+								(document.getElementsByClassName().value);}
+  if (document(window.location.hostname) === 'www.amazon.com') {
 		targetImg('main-image');
 		targetTitle('btAsinTitle');
 		targetPrice('priceLarge');
-	} else if (document.write(location.hostname) === 'www.etsy.com') {
+	} else if (document(window.location.hostname) === 'www.etsy.com') {
 		targetImg('fullimage_link1 img');
 		targetTitle('item-title');
 		targetPrice('v2:nth-child(1) currency-value');
@@ -22,4 +23,4 @@ var product_info = [];
 product_info.push(targetImg);
 product_info.push(targetTitle);
 product_info.push(targetPrice);
-  window.alert(product_info);  
+  window.alert(product_info); 
