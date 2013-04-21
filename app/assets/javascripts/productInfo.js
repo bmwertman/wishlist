@@ -1,9 +1,8 @@
-
 function targetImg() {document.getElementById(imgId).src}
 function targetTitle() {document.getElementById(titleId).value}
 function targetPrice() {document.getElementsByClassName(priceClass).value}
 function productInfo() {
-  if (document(location.hostname) == 'www.amazoncom') {
+  if (document(location.hostname) == 'www.amazon.com') {
 		targetImg('main-image');
 		targetTitle('btAsinTitle');
 		targetPrice('priceLarge');
