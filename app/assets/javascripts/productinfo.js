@@ -1,5 +1,9 @@
 var product_info = [];
-	var targetImg = (function() {document.getElementById().src;})();
+	var targetImg = (function() {'use strict';
+		var el = document.getElementById('main-image');
+		var state = '';
+		if(el != null) state = el.src;
+		document.getElementById().src;})();
 	var targetTitle = (function() {'use strict';
                                   document.getElementById().value;})();
 	var targetPrice = (function() {'use strict';
