@@ -22,4 +22,4 @@ var targetImg = (function() {'use strict';
 product_info.push(targetImg);
 product_info.push(targetTitle);
 product_info.push(targetPrice);
-  return product_info;
+  alert(product_info);
