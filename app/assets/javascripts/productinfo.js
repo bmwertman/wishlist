@@ -1,6 +1,6 @@
 var product_info = [];
 	var targetImg = function() {'use strict';
-								document.getElementById().src;}();
+								document.getElementById(imgID).src.indexOf( baseurl+"selection-off.png" ) >= 0;}();
 	var targetTitle = function() {'use strict';
 								document.getElementById().value;}();
 	var targetPrice = function() {'use strict';
