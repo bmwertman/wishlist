@@ -1,6 +1,6 @@
 var product_info = [];
 	var targetImg = function() {'use strict';
-								document.getElementById().value;}();
+								document.getElementById().src;}();
 	var targetTitle = function() {'use strict';
 								document.getElementById().value;}();
 	var targetPrice = function() {'use strict';
