@@ -1,9 +1,8 @@
 var product_info = [];
-var targetImg = (function() {'use strict';
-                             document.getElementById().src;})();
-    var targetTitle = (function() {'use strict';
+	var targetImg = (function() {document.getElementById().src;})();
+	var targetTitle = (function() {'use strict';
                                   document.getElementById().value;})();
-    var targetPrice = (function() {'use strict';
+	var targetPrice = (function() {'use strict';
                                   document.getElementsByClassName().value;})();
   if (document(location.hostname) === 'www.amazon.com') {
 		targetImg('main-image');
