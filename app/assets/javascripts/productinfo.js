@@ -1,14 +1,20 @@
 var product_info = [];
+var el_id = document.getElementById();
+var el_class = document.getElementsByClassName();
+var state = '';
+                           
 	var targetImg = function() {'use strict';
-		var el = document.getElementById('main-image');
-		var state = '';
-                                 if (el !== null) {
-                                   state = el.src;}
+		if (el_id !== null) {
+			state = el_id.src;}
                                };
 	var targetTitle = function() {'use strict';
-                                  document.getElementById().value;}();
+		if (el_id !== null) {
+			state = el_id.value;}
+                                  };
 	var targetPrice = function() {'use strict';
-                                  document.getElementsByClassName().value;}();
+		if (el_class !== null) {
+			state = el_class.value;}
+                                  };
   if (document(location.hostname) === 'www.amazon.com') {
 		targetImg('main-image');
 		targetTitle('btAsinTitle');
