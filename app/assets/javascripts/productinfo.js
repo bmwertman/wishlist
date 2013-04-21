@@ -1,6 +1,6 @@
-function targetImg() {document.getElementById(imgId).src}
-function targetTitle() {document.getElementById(titleId).value}
-function targetPrice() {document.getElementsByClassName(priceClass).value}
+function targetImg() {document.getElementById().src}
+function targetTitle() {document.getElementById().value}
+function targetPrice() {document.getElementsByClassName().value}
 function productInfo() {
   if (document(location.hostname) == 'www.amazon.com') {
 		targetImg('main-image');
