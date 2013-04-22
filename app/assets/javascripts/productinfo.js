@@ -8,4 +8,4 @@ var product_info = [];
 product_info.push(targetImg());
 product_info.push(targetTitle());
 product_info.push(targetPrice());
-  window.alert(product_info); 
+  console.log(product_info); 
