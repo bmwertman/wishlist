@@ -1,26 +1,28 @@
 var product_info = [];
 var baseurl = "media/images/";
-	function targetImg(id) {'use strict';
-		return document.getElementById(id ).src.indexOf( baseurl+"selection-off.png" ) >= 0;}
-	function targetTitle(id) {'use strict';
-		return document.getElementById(id).value;}
-	function targetPrice(id) {'use strict';
-		return document.getElementsByClassName(id).value;}
+	function target_img(id) {'use strict';
+		document.getElementById(id ).src.indexOf( baseurl+"selection-off.png" ) >= 0;}
+	function target_title(id) {'use strict';
+		document.getElementById(id).value;}
+	function target_price(id) {'use strict';
+		document.getElementsByClassName(id).value;}
   if (window.location.hostname === 'www.amazon.com') {
-		targetImg('main-image');
-		targetTitle('btAsinTitle');
-		targetPrice('priceLarge');
+		target_img('main-image');
+		target_title('btAsinTitle');
+		target_price('priceLarge');
 	} else if (window.location.hostname === 'www.etsy.com') {
-		targetImg('fullimage_link1 img');
-		targetTitle('item-title');
-		targetPrice('v2:nth-child(1) currency-value');
+		target_img('fullimage_link1 img');
+		target_title('item-title');
+		target_price('v2:nth-child(1) currency-value');
 	} else {
-		targetImg('fullimage_link1 img'); //assumes Jcrew and uses associated class & id selectors
-		targetTitle('item-title');
-		targetPrice('v2:nth-child(1) currency-value');
+		target_img('fullimage_link1 img'); //assumes Jcrew and uses associated class & id selectors
+		target_title('item-title');
+		target_price('v2:nth-child(1) currency-value');
 	} 
-
+var targetImg = target_img();
+var targetTitle = target_title();
+var targetPrice = target_price();
 product_info.push(targetImg);
 product_info.push(targetTitle);
 product_info.push(targetPrice);
-  window.alert(product_info);
+  window.alert(product_info); 
