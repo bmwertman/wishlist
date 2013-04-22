@@ -19,4 +19,4 @@ else if (window.location.hostname === 'www.jcrew.com') {
  var targetTitle = document.querySelector('#pdp-title', 'h1').innerHTML;
   product_info.push(targetTitle);}
 else (console.log("We're sorry you must be shopping an unsupported site"));
-console.log(targetTitle); 
+console.log(product_info); 
