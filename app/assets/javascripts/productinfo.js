@@ -8,6 +8,5 @@ var targetTitle = document.getElementById('item-title').innerHTML;
 var targetPrice = document.querySelector('.item-amount', '.currency-value').innerHTML;}
 else if (window.location.hostname === 'www.jcrew.com') {
 var targetImg = document.getElementById('product_image_form');
-var targetTitle = document.querySelector('#pdp-title', 'h1').innerHTML;}
 else (console.log("We're sorry you must be shopping an unsupported site"))
 console.log(targetTitle, targetPrice); 
