@@ -1,11 +1,11 @@
 var product_info = [];
-	function targetImg(id) {'use strict';
-		document.getElementById(id ).src;}
-	function targetTitle(id) {'use strict';
-		document.getElementById(id).value;}
-	function targetPrice(id) {'use strict';
-		document.getElementsByClassName(id).value;}
-product_info.push(targetImg('main-image'));
-product_info.push(targetTitle('btAsinTitle'));
-product_info.push(targetPrice('priceLarge'));
+	function targetImg() {'use strict';
+		document.getElementById('main-image').src;}
+	function targetTitle() {'use strict';
+		document.getElementById('btAsinTitle').value;}
+	function targetPrice() {'use strict';
+		document.getElementsByClassName('priceLarge').value;}
+product_info.push(targetImg());
+product_info.push(targetTitle());
+product_info.push(targetPrice());
   window.alert(product_info); 
