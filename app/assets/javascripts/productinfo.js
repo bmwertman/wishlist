@@ -1,11 +1,13 @@
 var product_info = [];
-	function targetImg() {'use strict';
-		document.getElementById('main-image').src;}
+var outer = document.createElement('outer');
+var child = document.getElementById('main-image').children[0].cloneNode(true);
+outer.appendChild(child);
+var imgHtml = outer.innerHTML
 	function targetTitle() {'use strict';
-		document.getElementById('btAsinTitle').innerText;}
+		document.getElementById('btAsinTitle').innerHTML;}
 	function targetPrice() {'use strict';
-		document.getElementsByClassName('priceLarge').innerText;}
-product_info.push(targetImg());
+		document.getElementsByClassName('priceLarge').innerHTML;}
+product_info.push(imgHtml;
 product_info.push(targetTitle());
 product_info.push(targetPrice());
   console.log(product_info); 
