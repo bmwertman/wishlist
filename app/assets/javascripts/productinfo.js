@@ -10,4 +10,4 @@ else if (window.location.hostname === 'www.jcrew.com') {
 var targetTitle = document.querySelector('#pdp-title', 'h1').innerHTML;}
 var targetPrice = document.querySelector('.pdp-shape:nth-child(1)', '.price');
 else (console.log("We're sorry you must be shopping an unsupported site"))
-console.log(targetTitle); 
+console.log(targetTitle, targetPrice); 
