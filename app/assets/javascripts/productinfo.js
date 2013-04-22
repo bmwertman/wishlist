@@ -9,4 +9,4 @@ var targetPrice = document.querySelector('.item-amount', '.currency-value').inne
 else if (window.location.hostname === 'www.jcrew.com') {
 var targetTitle = document.getElementsByTagName('h1').innerHTML;}
 else (console.log("We're sorry you must be shopping an unsupported site"))
-console.log(targetTitle, targetPrice, targetImg); 
+console.log(targetTitle); 
