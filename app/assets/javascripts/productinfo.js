@@ -1,11 +1,11 @@
 var product_info = [];
 var baseurl = "media/images/";
-	function targetImg() {'use strict';
-                          (document.getElementById().src.indexOf( baseurl+"selection-off.png" ) >= 0);}
-	function targetTitle() {'use strict';
-								(document.getElementById().value);}
-	function targetPrice() {'use strict';
-								(document.getElementsByClassName().value);}
+	var targetImg = function( id ) {'use strict';
+                          return document.getElementById(id ).src.indexOf( baseurl+"selection-off.png" ) >= 0;};
+	var targetTitle = function(id) {'use strict';
+								document.getElementById(id).value;};
+	var targetPrice = function(id) {'use strict';
+								(document.getElementsByClassName(id).value);};
   if (window.location.hostname === 'www.amazon.com') {
 		targetImg('main-image');
 		targetTitle('btAsinTitle');
